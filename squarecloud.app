@@ -1,0 +1,5 @@
+MAIN=src/index.js
+MEMORY=1500
+VERSION=recommended
+DISPLAY_NAME=BOTS de MW
+AUTORESTART=true
