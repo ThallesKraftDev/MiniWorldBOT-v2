@@ -1,6 +1,6 @@
 
 
-import { ShardingManager } from "discord.js";
+/*import { ShardingManager } from "discord.js";
 
 import logger from "./utils/Logger.js";
 import dotenv from "dotenv";
@@ -23,6 +23,9 @@ const manager = new ShardingManager("./src/index.js", {
 
 export default manager;
 
+*/
+
+import "./index.js";
 
 process.on('unhandledRejection', (reason, promise) => {
   console.error('Promise não tratada:', promise);
