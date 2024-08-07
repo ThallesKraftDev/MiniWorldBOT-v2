@@ -22,3 +22,9 @@ const manager = new ShardingManager("./src/index.js", {
  start()
 
 export default manager;
+
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Promise não tratada:', promise);
+  console.error('Razão:', reason);
+});
