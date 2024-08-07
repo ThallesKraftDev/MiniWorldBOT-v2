@@ -1,0 +1,8 @@
+modules = ["nodejs-20"]
+run = "node src/shard.js"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "node src/shard.js"]
