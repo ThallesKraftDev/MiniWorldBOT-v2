@@ -1,4 +1,4 @@
-MAIN=src/index.js
+MAIN=src/shard.js
 MEMORY=1500
 VERSION=recommended
 DISPLAY_NAME=BOTS de MW
